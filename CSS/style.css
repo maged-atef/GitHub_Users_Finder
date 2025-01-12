@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+
+/* ^Global */
+body{
+    font-family: "Cairo";
+}
+
+/* ^icons */
+#github-icon{width: 40px;}
+
+
+/* ^ Styling user List info  */
+#info-data li:nth-child(odd){
+    background-color: rgba(0, 153, 204, 0.486);
+}
+
+#info-data li:nth-child(even){
+    background-color: rgba(238, 130, 238, 0.623);
+}
+
+/* ^styling view repos */
