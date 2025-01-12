@@ -102,10 +102,10 @@ input.addEventListener('keyup', function (e) {
 
                 <div class="col-md-9 mt-3">
                    <div class="mb-2" id="btn-data">
-                    <button type="button" class="btn btn-primary">Public Repo:${user.public_repos} </button>
-                    <button type="button" class="btn btn-secondary">Public Gists:${user.public_gists} </button>
-                    <button type="button" class="btn btn-success">Followers: ${user.followers}</button>
-                    <button type="button" class="btn btn-info">Following: ${user.following}</button>
+                        <span class="badge bg-primary">Public Repo:${user.public_repos}</span>
+                          <span class="badge bg-secondary">Public Gists:${user.public_gists}</span>
+                          <span class="badge bg-success">Followers: ${user.followers}</span>
+                          <span class="badge bg-danger">Following: ${user.following}</span>
                    </div>
                    <ul class="list-group" id="info-data">
                     <li class="list-group-item">Company: ➡${user.company ?? " No Data Registered"}</li>
